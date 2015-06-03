@@ -1,7 +1,7 @@
 function []=ApplyConstrastFilter()
  
 
-
+%isufdgsodhfsdogj
 prompt= 'Use "a" or "b" settings (a= for phantom/cage, b = for distortion mesh)?';
 filtertype= inputdlg(prompt)
 filtertype = char(filtertype)
