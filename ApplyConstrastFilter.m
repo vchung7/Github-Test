@@ -1,8 +1,6 @@
 function []=ApplyConstrastFilter()
  
-% use:  
-%  (A) cage/phantom filter settings
-%  (B) distortion mesh filter settings or
+
 
 prompt= 'Use "a" or "b" settings (a= for phantom/cage, b = for distortion mesh)?';
 filtertype= inputdlg(prompt)
